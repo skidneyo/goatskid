@@ -1,0 +1,38 @@
+getgenv().DNS = { 
+    Silent = {
+        Enabled = true,
+        Part = "HumanoidRootPart",
+        Pred = 0.119,
+        ClosestPart = true,
+},
+    FOV = {
+        Visible = true,
+        Radius = 16.5,
+},
+    GunFOV =  {
+        Enabled = true,-- // Gun Fov / fov is automatically changed to specific gun equipped
+        DoubleBarrel = 10,
+        Revolver = 15,
+        Rifle = 20,
+        Shotgun = 20,
+        Smg = 23,
+        TacticalShotgun = 24,
+        Silencer = 17,
+        AK47 = 8,
+        AR = 15,
+},
+    Tracer = {
+        Key = "C",
+        Enabled = true,
+        Pred = 0.1,
+        Part = "HumanoidRootPart",
+        Smoothness = 0.014
+},
+    Misc = {
+        Resolver = true,
+        AutoPrediction = false,
+        Shake = true,
+        ShakeValue = 40,
+        UnlockedOnDeath = true
+    },
+}
